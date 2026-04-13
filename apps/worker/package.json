@@ -1,0 +1,34 @@
+{
+  "name": "@ala/worker",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "test:int": "vitest run --config vitest.int.config.ts"
+  },
+  "dependencies": {
+    "@ala/config": "workspace:*",
+    "@ala/db": "workspace:*",
+    "@ala/http-client": "workspace:*",
+    "@ala/logger": "workspace:*",
+    "@ala/shared": "workspace:*",
+    "@ala/types": "workspace:*",
+    "@prisma/client": "^6.3.0",
+    "bullmq": "^5.34.10",
+    "ioredis": "^5.4.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
+  }
+}

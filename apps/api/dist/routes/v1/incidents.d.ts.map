@@ -1,0 +1,1 @@
+{"version":3,"file":"incidents.d.ts","sourceRoot":"","sources":["../../../src/routes/v1/incidents.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,aAAa,CAAC;AAE1C,OAAO,KAAK,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AASlD,eAAO,MAAM,eAAe,EAAE,kBAAkB,CAAC;IAAE,GAAG,EAAE,MAAM,CAAA;CAAE,CAiB/D,CAAC"}
