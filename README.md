@@ -169,4 +169,5 @@ GitHub Actions workflow: `.github/workflows/ci.yml` runs install → migrate →
 
 ## License
 
-Private / unlicensed template—add a license in your fork if you open-source it.
+This project is open-sourced under MIT for educational and portfolio purposes.
+Production-grade and enterprise features are not included in this repository.
